@@ -4,61 +4,71 @@ html {
 }
 
 body {
-  margin-bottom: 60px; /* Making space for sticky footer */
   padding: 0;
-  font-family: 'Roboto Condensed';
+  font-family: 'Open Sans';
   font-weight: 700;
-  font-size: 1.6em;
+}
+
+h1 {
+}
+
+.navbar-inverse, .navbar-collapse, .navbar-form {
+  border: none;
+}
+
+.navbar-inverse {
+  box-shadow: 0px 3px 6px #000;
 }
 
 .splash {
   text-transform: uppercase;
+  text-shadow: 0px 1px 1px black;
+}
+
+.navbar-brand {
 }
 
 .jumbotron.splash {
-  margin-top: 240px;
-  font-size: 0.5em;
-  background-color: rgba(0, 0, 0, 0.6);
-  border-bottom: 2px solid rgb(8, 8, 8);
+  margin-top: 160px;
+  background-color: rgba(8, 8, 8, 0);
   color: white;
 }
 
-.jumbotron h1 {
+.card {
+  height: 400px;
+  background: rgba(8, 8, 8, 0.6);
+}
 
+.jumbotron.splash .well {
+  background-color: rgba(8, 8, 8, 0.2);
 }
 
 .btn-pink {
   color: white;
-  background-color: hotpink;
+  background-color: orange;
 }
 
 #section-1 {
-  height: 900px;
+  height: 800px;
 }
 
 #section-2 {
-  height: 1200px;
+  background-color: white;
+}
+
+#typed {
+  display: inline;
+}
+
+#typed,.typed-cursor {
+  font-size: 2em;
 }
 
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
 .footer {
   padding-left: 15px;
   padding-right: 15px;
-}
-
-/* Custom page header */
-.header {
-  margin-bottom: 10px;
-}
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-  padding-bottom: 19px;
 }
 
 /* Custom page footer */
@@ -73,20 +83,8 @@ body {
 }
 
 /* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-}
 .jumbotron .btn {
-  font-size: 21px;
   padding: 14px 24px;
-}
-
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-}
-.marketing p + h4 {
-  margin-top: 28px;
 }
 
 /* Responsive: Portrait tablets and up */
@@ -94,15 +92,9 @@ body {
 
 
   /* Remove the padding we set earlier */
-  .header,
-  .marketing,
   .footer {
     padding-left: 0;
     padding-right: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
   }
 }
 
