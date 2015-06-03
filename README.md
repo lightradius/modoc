@@ -1,12 +1,20 @@
-# modoc
+# Codename: modoc
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
+This project has been generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.11.1.
+It is a personal protfolio webpage.
 
 ## Build & development
 
 Run `grunt` for building and `grunt serve` for preview.
 
-## Testing
+##TODO
 
-Running `grunt test` will run the unit tests with karma.
+<ul>
+  <li>Create card design</li>
+  <li>Utilize angular directives whenever possible</li>
+  <li>Create comprehensive footer</li>
+  <li>Separate sections with triangles</li>
+  <li>Create contacts sections</li>
+  <li>Comply with Google's material design</li>
+</ul>
