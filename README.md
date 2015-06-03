@@ -1,8 +1,9 @@
 # Codename: modoc
 
+### Personal protfolio webpage.
+
 This project has been generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.11.1.
-It is a personal protfolio webpage.
 
 ## Build & development
 
