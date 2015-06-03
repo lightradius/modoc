@@ -44,7 +44,9 @@ h1 {
 }
 
 .jumbotron.splash .well {
-  background-color: rgba(8, 8, 8, 0.2);
+  background-color: rgba(8, 8, 8, 0.9);
+  box-shadow: 0px 8px 16px #111;
+  border: none;
 }
 
 .btn-pink {
@@ -62,10 +64,10 @@ h1 {
 
 #typed {
   display: inline;
+  min-height: 300px;
 }
 
 #typed,.typed-cursor {
-  font-size: 2em;
 }
 
 
