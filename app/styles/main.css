@@ -7,6 +7,8 @@ body {
   padding: 0;
   font-family: 'Open Sans';
   font-weight: 700;
+  /* Needed to stop white horizontal strips from showing under the parallax when scrolling up too fast */
+  background-color: #666;
 }
 
 h1 {
@@ -37,6 +39,8 @@ h1 {
 .card {
   height: 400px;
   background: rgba(8, 8, 8, 0.6);
+  margin: 16px;
+  padding: 16px;
 }
 
 .jumbotron.splash .well {
@@ -53,7 +57,7 @@ h1 {
 }
 
 #section-2 {
-  background-color: white;
+  background-color: #666;
 }
 
 #typed {
@@ -86,6 +90,9 @@ h1 {
 .jumbotron .btn {
   padding: 14px 24px;
 }
+
+
+
 
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
