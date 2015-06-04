@@ -17,6 +17,7 @@
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -34,30 +35,30 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
-      <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container-fluid">
-          <div class="navbar-header">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
 
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#js-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
 
-            <a class="navbar-brand" href="#/">LIGTHRADIUS</a>
-          </div>
+          <a class="navbar-brand" href="#/">LIGTHRADIUS</a>
+        </div>
 
-          <div class="collapse navbar-collapse" id="js-navbar-collapse">
+        <div class="collapse navbar-collapse" id="js-navbar-collapse">
 
-            <ul class="nav navbar-nav">
-              <li><a ng-href="#/about">Portfolio</a></li>
-              <li><a ng-href="#/about">Services</a></li>
-              <li><a ng-href="#/">Contact</a></li>
-            </ul>
-          </div>
+          <ul class="nav navbar-nav">
+            <li><a ng-href="#/about">Portfolio</a></li>
+            <li><a ng-href="#/about">Services</a></li>
+            <li><a ng-href="#/">Contact</a></li>
+          </ul>
         </div>
       </div>
+    </div>
 
     <main class="wrap parallax-container" data-position="top" data-parallax="scroll" data-image-src="./images/bg-lg.png" id="section-1">
       <div class="container">
@@ -76,10 +77,14 @@
       </div>
     </main>
 
+
+
     <div class="container-fluid" id="section-2">
-      <h2>Folio</h2>
-      <div ng-repeat="project in projects" class="col-md-6 col-lg-4">
-        <div class="card">
+      <div class="row section-title text-center">
+        <h2><i class="fa fa-file-o"></i> Portfolio</h2>
+      </div>
+      <div ng-repeat="project in projects" class="col-lg-6">
+        <div class="card" ng-style="{'background-image':'url({{project.background}})'}">
           <h3>
             {{project.title}}
           </h3>
@@ -88,6 +93,7 @@
           </p>
           <a>
             {{project.url}}
+            {{project.background}}
           </a>
         </div>
       </div>

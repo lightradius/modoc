@@ -33,7 +33,10 @@ h1 {
   color: white;
 }
 
-
+.section-title {
+  color: white;
+  padding-bottom: 16px;
+}
 
 .jumbotron.splash .well {
   background-color: rgba(8, 8, 8, 0.9);
@@ -51,7 +54,8 @@ h1 {
 }
 
 #section-2 {
-  background-color: #666;
+  background-color: #a5a5a5;
+  box-shadow: 0px 8px 16px #111;
 }
 
 #typed {
@@ -70,7 +74,7 @@ h1 {
 .footer {
   padding-top: 19px;
   color: #777;
-  border-top: 2px solid rgb(8, 8, 8);
+  box-shadow: 0px 8px 16px #111;
 }
 
 /* Main marketing message and sign up button */
