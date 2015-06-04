@@ -27,21 +27,13 @@ h1 {
   text-shadow: 0px 1px 1px black;
 }
 
-.navbar-brand {
-}
-
 .jumbotron.splash {
   margin-top: 160px;
   background-color: rgba(8, 8, 8, 0);
   color: white;
 }
 
-.card {
-  height: 400px;
-  background: rgba(8, 8, 8, 0.6);
-  margin: 16px;
-  padding: 16px;
-}
+
 
 .jumbotron.splash .well {
   background-color: rgba(8, 8, 8, 0.9);
@@ -67,9 +59,6 @@ h1 {
   min-height: 300px;
 }
 
-#typed,.typed-cursor {
-}
-
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .footer {
@@ -84,10 +73,6 @@ h1 {
   border-top: 2px solid rgb(8, 8, 8);
 }
 
-.container-narrow > hr {
-  margin: 30px 0;
-}
-
 /* Main marketing message and sign up button */
 .jumbotron .btn {
   padding: 14px 24px;
@@ -99,13 +84,6 @@ h1 {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
 
-
-  /* Remove the padding we set earlier */
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
 
 @media (min-width: 1200px) {
 
